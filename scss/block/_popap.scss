@@ -4,13 +4,13 @@
     border-radius: 5px;
     border: 1px solid gainsboro;
     color: white;
-    background: rgb(193, 193, 237);
+    background: #010101;
     transition: .3s;
     font-weight: 700;
+    cursor: pointer;
 
     &:hover {
-        background: rgb(50, 50, 50);
-
+        background-color: #302c2c;
     }
 }
 
@@ -80,14 +80,14 @@
         border-radius: 5px;
         border: 1px solid gainsboro;
         color: white;
-        background: rgb(193, 193, 237);
+        background: #010101;
         transition: .3s;
         font-weight: 700;
         margin-top: 10px;
+        cursor: pointer;
 
         &:hover {
-            background: rgb(50, 50, 50);
-
+            background-color: #302c2c;
         }
     }
 }
